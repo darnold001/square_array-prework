@@ -1,6 +1,6 @@
 def square_array(array)
 test = []
-array.each |p| do
+array.each do |p|
   value = p**2
   test << value
   end
