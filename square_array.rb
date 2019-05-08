@@ -1,6 +1,9 @@
 def square_array(array)
-  array.each do
-    puts array=**2
+anarray =[]
+  array.each do |p|
+    value= p**2
+    anarray << value
   end
+  anarray
   # your code here
 end
